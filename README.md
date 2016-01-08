@@ -102,7 +102,16 @@ The goal of this course is to introduce the fundamentals of uncertainty quantifi
 
 ### Microsoft Windows
 
-### Apples OS X
++ Install [Cygwin](https://www.cygwin.com). We need it for compiling stuff on windows. While the setup runs, we need to select a few packages for installation. These are:
+    + Devel->gcc-core
+    + Devel->gcc-fortran
+    + Devel->gcc-g++
+    + Devel->git
+Say, "yes" to the installation of the dependencies.
+
+### Apple OS X
+
++ [Anaconda](https://www.continuum.io/downloads) from Continuum Analytics, is absolutely essential to group the installation of many packages.
 
 ### Linux
 
