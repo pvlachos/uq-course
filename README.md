@@ -111,12 +111,7 @@ The goal of this course is to introduce the fundamentals of uncertainty quantifi
     + Devel->git
 Say, "yes" to the installation of the dependencies.
 
-+ Download Anaconda for Linux (Python 2.7). Make sure you know where you save the file.
-+ In the Cygwin command line, type (adjusted properly):
-```
-bash /cygdrive/c/Users/<Windows User Name>/Downloads/Anaconda2-2.4.1-linux-x86_64.sh
-```
-and follow the instructions. Note that, the filename of the ``Anaconda*.sh`` file may be different in your case.
++ Download and run [Anaconda](https://www.continuum.io/downloads). Install it for a single user.
 
 #### Apple OS X
 
