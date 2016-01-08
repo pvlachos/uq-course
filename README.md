@@ -111,7 +111,9 @@ The goal of this course is to introduce the fundamentals of uncertainty quantifi
     + Devel->git
 Say, "yes" to the installation of the dependencies.
 
-+ Download and run [Anaconda](https://www.continuum.io/downloads). Install it for a single user.
++ Download and install [Anaconda](https://www.continuum.io/downloads). Install it for a single user.
+
++ Download and install [Microsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/details.aspx?id=44266).
 
 #### Apple OS X
 
