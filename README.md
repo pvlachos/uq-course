@@ -10,7 +10,7 @@ The goal of this course is to introduce the fundamentals of uncertainty quantifi
 
 + Represent mathematically the uncertainty in the parameters of physical models.
 + Propagate parametric uncertainty through physical models to quantify the induced uncertainty on quantities of interest.
-+ Calibrate the parameters of physical models using experimental data.
++ Calibrate the uncertain parameters of physical models using experimental data.
 + Combine multiple sources of information to enhance the predictive capabilities of models.
 + Pose and solve design optimization problems under uncertainty involving expensive computer simulations.
 
