@@ -100,7 +100,9 @@ The goal of this course is to introduce the fundamentals of uncertainty quantifi
 
 ## Installation of Required Software for Viewing the Notebookes
 
-### Microsoft Windows
+### OS Specific Instructions
+
+#### Microsoft Windows
 
 + Install [Cygwin](https://www.cygwin.com). We need it for compiling stuff on windows. While the setup runs, we need to select a few packages for installation. These are:
     + Devel->gcc-core
@@ -116,23 +118,38 @@ bash /cygdrive/c/Users/<Windows User Name>/Downloads/Anaconda2-2.4.1-linux-x86_6
 ```
 and follow the instructions. Note that, the filename of the ``Anaconda*.sh`` file may be different in your case.
 
-### Apple OS X
+#### Apple OS X
 
 + [Anaconda](https://www.continuum.io/downloads) from Continuum Analytics, is absolutely essential to group the installation of many packages.
 
-### Linux
+#### Linux
 
 + [Anaconda](https://www.continuum.io/downloads) from Continuum Analytics, is absolutely essential to group the installation of many packages.
 
-+ A working latex distribution. We suggest [MacTex](https://tug.org/mactex/) for OS X users, and [MikTex](http://miktex.org) for Windows users.
+### Installation of Required Python Packages
 
-+ [Jupyter Notebook Extensions](https://github.com/ipython-contrib/IPython-notebook-extensions)
-is required to properly display latex in the document (bibliography and equation numbers).
+Use the command line to install the following Python packages:
++ [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/), for beatiful graphics:
+```
+conda install seaborn
+```
 
-+ Essential UQ software developed by the [Predictive Science Laboratory](http://www.predictivesciencelab.org):
-    
-    + [py-orthpol](https://github.com/PredictiveScienceLab/py-orthpol) for generating orthogonal polynomials with respect to arbitrary probability measures. Requires FORTRAN compiler.
-    
-    + [py-design](https://github.com/PredictiveScienceLab/py-design) for generating designs for computer codes. Requires FORTRAN compiler.
++ [GPy](https://github.com/SheffieldML/GPy) for Gaussian process regression:
+```
+conda install GPy
+```
 
-+ [RISE](https://github.com/damianavila/RISE.git) is required only if you want to view the presentation as slides.
++ [PyMC](https://https://github.com/pymc-devs/pymc) for MCMC sampling:
+```
+conda install pymc
+```
+
++ [py-design](https://github.com/PredictiveScienceLab/py-design) for generating designs for computer codes:
+```
+pip install py-design
+```
+
++ [py-orthpol](https://github.com/PredictiveScienceLab/py-orthpol) for generating orthogonal polynomials with respect to arbitrary probability measures:
+```
+pip install py-orthpol
+```
