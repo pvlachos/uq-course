@@ -100,32 +100,44 @@ The goal of this course is to introduce the fundamentals of uncertainty quantifi
 
 ## Installation of Required Software for Viewing the Notebookes
 
+Find and download the right version of 
+[Anaconda for Python 2.7](https://www.continuum.io/downloads) from Continuum Analytics.
+This package contains most of the software we are going to need.
+
 ### OS Specific Instructions
 
 #### Microsoft Windows
 
-+ Install [Cygwin](https://www.cygwin.com). We need it for compiling stuff on windows. While the setup runs, we need to select a few packages for installation. These are:
-    + Devel->gcc-core
-    + Devel->gcc-fortran
-    + Devel->gcc-g++
-    + Devel->git
-Say, "yes" to the installation of the dependencies.
-
-+ Download and install [Anaconda](https://www.continuum.io/downloads). Install it for a single user.
-
-+ Download and install [Microsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/details.aspx?id=44266).
++ We need C, C++, Fortran compilers, as well as the Python sources.
+Start a command line (look for ``cmd``) and type:
+```
+conda install mingw libpython
+```
++ Finally, you need [git](https://git-scm.com/downloads). As you install it,
+make sure you select that you want to use it from the Windows command prompt.
 
 #### Apple OS X
 
-+ [Anaconda](https://www.continuum.io/downloads) from Continuum Analytics, is absolutely essential to group the installation of many packages.
++ Download and install [Xcode](https://developer.apple.com/xcode/download/)
++ Agree to the license of Xcode by opening a terminal and typing:
+```
+sudo xcrun cc
+```
++ Install your favorite version of the GNU compiler suite.
+You can do this with [Homebrew](http://brew.sh/) (after you install it of course),
+by typing in the terminal:
+```
+brew install gcc
+```
+Alternatively, you may use the [MacPorts](https://www.macports.org/).
 
 #### Linux
 
-+ [Anaconda](https://www.continuum.io/downloads) from Continuum Analytics, is absolutely essential to group the installation of many packages.
+Nothing special is required.
 
 ### Installation of Required Python Packages
 
-Use the command line to install the following Python packages:
+Independently of the operating system, use the command line to install the following Python packages:
 + [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/), for beatiful graphics:
 ```
 conda install seaborn
@@ -150,3 +162,27 @@ pip install py-design
 ```
 pip install py-orthpol
 ```
+
+## Running the notebooks
+
++ Open the command line.
++ `cd` to your favorite folder.
++ Then, type:
+```
+git clone https://github.com/PredictiveScienceLab/uq-course.git
+```
++ This will download the contents of this repository in a folder called `uq-course`.
++ Enter the ``uq-course`` folder:
+```
+cd uq-course
+```
++ Start the jupyter notebook by typing the command:
+```
+jupyter notebook
+```
++ Use the browser to navigate the course, experiment with code etc.
++ If the course contented is updated, type the following command (while being inside `uq-course`) to get the latest version:
+```
+git pull origin master
+```
+Keep in mind, that if you have made local changes to the repository, you may have to commit them before moving on.
