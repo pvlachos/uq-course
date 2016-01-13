@@ -143,14 +143,14 @@ Independently of the operating system, use the command line to install the follo
 conda install seaborn
 ```
 
-+ [GPy](https://github.com/SheffieldML/GPy) for Gaussian process regression:
-```
-conda install GPy
-```
-
 + [PyMC](https://https://github.com/pymc-devs/pymc) for MCMC sampling:
 ```
 conda install pymc
+```
+
++ [GPy](https://github.com/SheffieldML/GPy) for Gaussian process regression:
+```
+pip install GPy
 ```
 
 + [py-design](https://github.com/PredictiveScienceLab/py-design) for generating designs for computer codes:
