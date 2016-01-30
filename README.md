@@ -87,7 +87,7 @@ The goal of this course is to introduce the fundamentals of uncertainty quantifi
 
 + [Homework 1](hw/hw_01.ipynb) due on 01/26/2016.
 
-+ [Homework 2](hw/hw_02.ipynb) due on 02/09/2016.
++ [Homework 2](hw/hw_02.ipynb) due on 02/11/2016.
 
 + [Homework 3](hw/hw_03.ipynb) due on 02/23/2016.
 
