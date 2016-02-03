@@ -36,13 +36,13 @@ The goal of this course is to introduce the fundamentals of uncertainty quantifi
 
 + [Lecture 7 - Uncertainty Propagation using Polynomial Chaos II](lectures/lec_07.ipynb) on 02/02/2016.
 
-+ [Lecture 8 - Maximum Likelihood, Bayesian Parameter Estimation, Bayesian Linear Regression](lectures/lec_08.ipynb) on 02/04/2016.
++ [Lecture 8 - Uncertainty Propagation using Polynomial Chaos III](lectures/lec_08.ipynb) on 02/04/2016.
 
-+ [Lecture 9 - Priors of Function Spaces: Gaussian Processes](lectures/lec_09.ipynb) on 02/09/2016.
++ [Lecture 9 - Maximum Likelihood, Bayesian Parameter Estimation, Bayesian Linear Regression](lectures/lec_09.ipynb) on 02/09/2016.
 
-+ [Lecture 10 - Gaussian Process Regression](lectures/lec_10.ipynb) on 02/11/2016.
++ [Lecture 10 - Priors of Function Spaces: Gaussian Processes](lectures/lec_10.ipynb) on 02/11/2016.
 
-+ [Lecture 11 - Representation of Prior Uncertainty - The Maximum Entropy Principle](lectures/lec_11.ipynb) on 02/16/2016.
++ [Lecture 11 - Gaussian Process Regression](lectures/lec_11.ipynb) on 02/16/2016.
 
 + [Lecture 12 - Dimensionality Reduction: Principal Component Analysis](lectures/lec_12.ipynb) on 02/18/2016.
 
