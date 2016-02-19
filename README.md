@@ -36,13 +36,13 @@ The goal of this course is to introduce the fundamentals of uncertainty quantifi
 
 + [Lecture 7 - Uncertainty Propagation using Polynomial Chaos II](lectures/lec_07.ipynb) on 02/02/2016.
 
-+ [Lecture 8 - Maximum Likelihood, Bayesian Parameter Estimation, Bayesian Linear Regression](lectures/lec_08.ipynb) on 02/04/2016.
++ [Lecture 8 - Uncertainty Propagation using Polynomial Chaos III](lectures/lec_08.ipynb) on 02/04/2016.
 
-+ [Lecture 9 - Priors of Function Spaces: Gaussian Processes](lectures/lec_09.ipynb) on 02/09/2016.
++ [Lecture 9 - Maximum Likelihood, Bayesian Parameter Estimation, Bayesian Linear Regression](lectures/lec_09.ipynb) on 02/09/2016.
 
-+ [Lecture 10 - Gaussian Process Regression](lectures/lec_10.ipynb) on 02/11/2016.
++ [Lecture 10 - Priors of Function Spaces: Gaussian Processes](lectures/lec_10.ipynb) on 02/11/2016.
 
-+ [Lecture 11 - Representation of Prior Uncertainty - The Maximum Entropy Principle](lectures/lec_11.ipynb) on 02/16/2016.
++ [Lecture 11 - Gaussian Process Regression](lectures/lec_11.ipynb) on 02/16/2016.
 
 + [Lecture 12 - Dimensionality Reduction: Principal Component Analysis](lectures/lec_12.ipynb) on 02/18/2016.
 
@@ -87,15 +87,15 @@ The goal of this course is to introduce the fundamentals of uncertainty quantifi
 
 + [Homework 1](hw/hw_01.ipynb) due on 01/26/2016.
 
-+ [Homework 2](hw/hw_02.ipynb) due on 02/09/2016.
++ [Homework 2](hw/hw_02.ipynb) due on 02/18/2016.
 
-+ [Homework 3](hw/hw_03.ipynb) due on 02/23/2016.
++ [Homework 3](hw/hw_03.ipynb) due on 02/??/2016.
 
-+ [Homework 4](hw/hw_04.ipynb) due on 03/08/2016.
++ [Homework 4](hw/hw_04.ipynb) due on 03/??/2016.
 
-+ [Homework 5](hw/hw_05.ipynb) due on 03/29/2016.
++ [Homework 5](hw/hw_05.ipynb) due on 03/??/2016.
 
-+ [Homework 6](hw/hw_06.ipynb) due on 04/12/2016.
++ [Homework 6](hw/hw_06.ipynb) due on 04/??/2016.
 
 
 ## Installation of Required Software for Viewing the Notebookes
@@ -143,14 +143,14 @@ Independently of the operating system, use the command line to install the follo
 conda install seaborn
 ```
 
-+ [GPy](https://github.com/SheffieldML/GPy) for Gaussian process regression:
-```
-conda install GPy
-```
-
 + [PyMC](https://https://github.com/pymc-devs/pymc) for MCMC sampling:
 ```
 conda install pymc
+```
+
++ [GPy](https://github.com/SheffieldML/GPy) for Gaussian process regression:
+```
+pip install GPy
 ```
 
 + [py-design](https://github.com/PredictiveScienceLab/py-design) for generating designs for computer codes:
